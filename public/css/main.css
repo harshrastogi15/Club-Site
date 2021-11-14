@@ -1,3 +1,54 @@
-.text-trial {
-    margin-top: 20%;
+body {
+    background-color: rgba(32, 32, 32, 0.849) !important;
+    margin: 0;
+}
+
+
+/* Carousel Section */
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 88%;
+    margin: 3% auto;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: 2px solid none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.card:active {
+    transform: scale(0.8);
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #dad1d1;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
 }
