@@ -18,6 +18,9 @@ app.get("/web", (req, res) => {
 app.get("/ai", (req, res) => {
   res.render("ai.ejs");
 });
+app.get("/robotics", (req, res) => {
+  res.render("robotics.ejs");
+});
 app.get("/blockchain", (req, res) => {
   res.render("blockchain.ejs");
 });
@@ -26,6 +29,12 @@ app.get("/cyber", (req, res) => {
 });
 app.get("/cloud", (req, res) => {
   res.render("cloud.ejs");
+});
+app.get("/electronics", (req, res) => {
+  res.render("electronics.ejs");
+});
+app.get("/automation", (req, res) => {
+  res.render("automation.ejs");
 });
 
 app.listen(process.env.PORT || 5000, process.env.IP, () =>
