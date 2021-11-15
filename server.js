@@ -9,32 +9,28 @@ app.use(express.static(__dirname + "/"));
 app.get("/", (req, res) => {
   res.render("index.ejs");
 });
-app.get("/coding", (req, res) => {
-  res.render("coding.ejs");
-});
-app.get("/web", (req, res) => {
-  res.render("web.ejs");
-});
-app.get("/ai", (req, res) => {
-  res.render("ai.ejs");
-});
-app.get("/robotics", (req, res) => {
-  res.render("robotics.ejs");
-});
-app.get("/blockchain", (req, res) => {
-  res.render("blockchain.ejs");
-});
-app.get("/cyber", (req, res) => {
-  res.render("cyber.ejs");
-});
-app.get("/cloud", (req, res) => {
-  res.render("cloud.ejs");
-});
-app.get("/electronics", (req, res) => {
-  res.render("electronics.ejs");
-});
-app.get("/automation", (req, res) => {
-  res.render("automation.ejs");
+app.get("/:site", (req, res) => {
+  var site=req.params.site;
+  if(site=='coding')
+    res.render("coding.ejs");
+  else if(site=='web')
+    res.render("web.ejs");
+  else if(site=='ai')
+    res.render("ai.ejs");
+  else if(site=='robotics')
+    res.render("robotics.ejs");
+  else if(site=='blockchain')
+    res.render("blockchain.ejs");
+  else if(site=='cyber')
+    res.render("cyber.ejs");
+  else if(site=='cloud')
+    res.render("cloud.ejs");
+  else if(site=='electronics')
+    res.render("electronics.ejs");
+  else if(site=='automation')
+    res.render("automation.ejs");
+  else
+    res.render("index.ejs");
 });
 
 app.listen(process.env.PORT || 5000, process.env.IP, () =>
