@@ -10,12 +10,12 @@ body {
   justify-content: center;
   width: 88%;
 }
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .cards-wrapper {
     margin: 6% auto;
   }
 }
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .cards-wrapper {
     margin: 3% auto;
   }
@@ -79,96 +79,101 @@ header p {
   text-transform: uppercase;
   font-size: 65px;
   font-weight: 700;
-  }
-  .footer {
+}
+.footer {
   display: flex;
   flex-flow: row wrap;
   padding: 50px;
   color: #fff;
   background-color: #011844;
-  }
-  
-  .footer > * {
-  flex:  1 100%;
-  }
-  
-  .l-footer {
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.l-footer {
   margin-right: 1.25em;
   margin-bottom: 2em;
-  }
-  
-  h2 {
+}
+
+h2 {
   font-weight: 400;
   font-size: 15px;
-  }
-  
-  .footer ul {
+}
+
+.footer ul {
   list-style: none;
   padding: 0;
-  }
-  
-  .footer li {
+}
+
+.footer li {
   line-height: 4em;
-  }
-  
-  .footer a {
+}
+
+.footer a {
   text-decoration: none;
-  }
-  
-  .r-footer {
+}
+
+.r-footer {
   display: flex;
-  flex-flow:row wrap;
-  }
-  
-  .r-footer > * {
+  flex-flow: row wrap;
+}
+
+.r-footer > * {
   flex: 1 50%;
   margin-right: 1.25em;
-  }
-  
-  .box a {
+}
+
+.box a {
   color: #999;
-  transition:0.5s;
-  }
-  .box a:hover 
-  {
-      color: #fff;
-  }
-  .h-box {
+  transition: 0.5s;
+}
+.box a:hover {
+  color: #fff;
+}
+.h-box {
   column-count: 1;
-  column-gap:0em;
-  }
-  
-  .b-footer {
+  column-gap: 0em;
+}
+
+.b-footer {
   text-align: center;
   color: #999;
   padding-top: 50px;
-  }
-  
-  .l-footer p {
+}
+
+.l-footer p {
   padding-right: 20%;
   color: #999;
-  }   
-  
-  @media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 600px) {
   .r-footer > * {
-  flex: 1;
+    flex: 1;
   }
-  
+
   .features {
-  flex-grow: 2;
+    flex-grow: 2;
   }
-  
+
   .l-footer {
-  flex: 1 0px;
+    flex: 1 0px;
   }
-  
+
   .r-footer {
-  flex: 2 0px;
+    flex: 2 0px;
   }
-  }
-  p a{
-      color:#9c9c9c;
-  }
-  p a:hover{
-      color:white
-  }
+}
+p a {
+  color: #9c9c9c;
+}
+p a:hover {
+  color: white;
+}
+.fa {
+  transition: 0.5s ease-in-out;
+}
+.fa:hover {
+  transform: scale(1.5);
+}
