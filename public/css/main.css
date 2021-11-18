@@ -80,6 +80,94 @@ header p {
   font-size: 65px;
   font-weight: 700;
 }
+
+/* hero*/
+.left .line1{
+  position: absolute;
+  width: 294px;
+  height: 0.18px;
+  left: 54.96px;
+  top: 143px;
+
+  border: 1px solid #F9F7F7;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.left .line2{
+  position: absolute;
+  width: 297px;
+  height: 0.14px;
+  left: 55px;
+  top: 725px;
+
+  border: 1px solid #F9F7F7;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.left .social{
+  position: absolute;
+  width: 39.6px;
+  height: 179.3px;
+  left: 35.7px;
+  top: 489.6px;
+}
+
+.home-text h1{
+  position: absolute;
+width: 552px;
+height: 200px;
+left: 260px;
+top: 472.83px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 100px;
+
+color: #00CAF7;
+}
+
+.home-text h3{
+position: absolute;
+width: 339px;
+height: 72px;
+left: 262px;
+top: 400.83px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+
+color: #E5E5E5;
+}
+
+.home-text h2{
+position: absolute;
+width: 552px;
+height: 200px;
+left: 260px;
+top: 594.83px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 100px;
+
+color: #00CAF7;
+}
+
+.home-img img{
+position: absolute;
+width: 1214px;
+height: 1163px;
+left: 706px;
+top: 44px;
+}
+
 .footer {
   display: flex;
   flex-flow: row wrap;
