@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Technical Board</title>
+
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="../public/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/font-awesome/css/font-awesome.min.css"
+    />
+
+    <!-- Include JS -->
+    <script
+      type="text/javascript"
+      src="../node_modules/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Abhinav & Harsh Nav Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark "
+    style="background-color: black;"
+    >
+      
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <i style="font-weight: bold; color: aqua" id="tecnical">TECHNICAL</i>
+          <i style="font-weight: bold">BOARD</i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item mx-2">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="font-weight: 500"
+              >
+                Home
+              </a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link active"
+                href="#"
+                id="navbarDarkDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="font-weight: 500"
+              >
+                Club
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="navbarDarkDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="/coding">CodeScape</a></li>
+                <li><a class="dropdown-item" href="/web">WebVerse</a></li>
+                <li><a class="dropdown-item" href="/ai">AI/ML</a></li>
+                <li><a class="dropdown-item" href="/robotics">Robotics</a></li>
+                <li>
+                  <a class="dropdown-item" href="/automation"
+                    >Automated Vehicle</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/blockchain">Blockchain</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/cyber">Cyber Security</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/cloud">Cloud Computing</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/electronics">Electronics</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2" style="font-weight: 500">
+              <a class="nav-link active" href="#">About Us</a>
+            </li>
+            
+          </ul>
+          <!-- navbar-nav  mb-2  mx-auto -->
+          <ul class="navbar-nav ml-4 mb-2 mb-lg-0 " >
+            <div class="dropdown">
+              <button class="dropbtn">Theme</button>
+              <div class="dropdown-content">
+                <a href="#" id="light">Light</a>
+                <a href="#" id="dark">Dark</a> 
+              </div>
+            </div>
+          </ul>
+      </div>
+    </nav>
+    <!-- Prem & Abhishek Hero Section -->
+
+    <!-- Prateek Crousel  -->
+    <section
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+      style="background-color: rgba(32, 32, 32, 0.849)"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" onclick="window.location.href='coding';">
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">CodeScape</h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis voluptatum voluptas consectetur officia quibusdam
+                  dicta animi suscipit illo, ipsam a error! Beatae, dolore?
+                  Perspiciatis perferendis nisi quas praesentium eum delectus.
+                </p>
+              </div>
+            </div>
+            <div
+              class="card d-none d-md-block"
+              onclick="window.location.href='web';"
+            >
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-2"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">WebVerse</h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus dolore minus consequatur qui modi quidem, dolorem
+                  consectetur, ratione nisi ullam eum beatae ea quia quo
+                  recusandae omnis a, accusamus dignissimos.
+                </p>
+              </div>
+            </div>
+            <div
+              class="card d-none d-md-block"
+              onclick="window.location.href='ai';"
+            >
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-3"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">AI/ML Club</h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus, ex! Illo ea dignissimos debitis nostrum earum
+                  amet, optio molestiae reiciendis, id ipsum labore culpa
+                  dolorem odio laudantium quo facere obcaecati!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" onclick="window.location.href='robotics';">
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-6"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">Robotics Club</h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  fuga cumque, eum aperiam voluptatum excepturi enim tenetur,
+                  dignissimos magnam velit, vel amet odio repudiandae ratione
+                  doloribus et quae quas rem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="card d-none d-md-block"
+              onclick="window.location.href='automation';"
+            >
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-6"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">
+                  Automated Vehicle Club
+                </h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  fuga cumque, eum aperiam voluptatum excepturi enim tenetur,
+                  dignissimos magnam velit, vel amet odio repudiandae ratione
+                  doloribus et quae quas rem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="card d-none d-md-block"
+              onclick="window.location.href='blockchain';"
+            >
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-4"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">
+                  Blockchain Club
+                </h5>
+                <p class="card-text text-justify">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Corporis dolore itaque doloribus modi ratione, beatae quas
+                  est, cumque minima iusto perferendis rem fugit aperiam
+                  maiores, quis soluta suscipit! Omnis, velit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" onclick="window.location.href='cyber';">
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-5"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">
+                  Cyber Security Club
+                </h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                  dolorum culpa ex distinctio dolore vero, accusamus eius,
+                  temporibus est rem libero sunt, maxime ipsam aut earum
+                  eveniet. Rerum, quo eligendi.
+                </p>
+              </div>
+            </div>
+            <div
+              class="card d-none d-md-block"
+              onclick="window.location.href='cloud';"
+            >
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-6"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">
+                  Cloud Computing Club
+                </h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  fuga cumque, eum aperiam voluptatum excepturi enim tenetur,
+                  dignissimos magnam velit, vel amet odio repudiandae ratione
+                  doloribus et quae quas rem?
+                </p>
+              </div>
+            </div>
+            <div
+              class="card d-none d-md-block"
+              onclick="window.location.href='electronics';"
+            >
+              <img
+                src="../public/data/lighthouse-g16db75415_1920.jpg"
+                class="card-img-top"
+                alt="Club-6"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center text-wrap">
+                  Electronics Club
+                </h5>
+                <p class="card-text text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  fuga cumque, eum aperiam voluptatum excepturi enim tenetur,
+                  dignissimos magnam velit, vel amet odio repudiandae ratione
+                  doloribus et quae quas rem?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <!-- Harshit News Section -->
+
+    <!-- Dhruv & Pavitra Footer Section -->
+    <footer class="footer">
+      <div class="d-flex justify-content-between">
+        <div class="l-footer">
+          <h1 class="text-center">
+            <a href="https://www.iiitbh.ac.in/" target="_blank"
+              ><img
+                src="../public/data/150dpi (1) (1).png"
+                alt=""
+                width="180px"
+            /></a>
+          </h1>
+          <p class="text-justify text-center">
+            It is one of the IIITs set up by MHRD, Govt of India in
+            PUBLIC-PRIVATE PARTNERSHIP(PPP) mode. It started functioning from
+            the academic year 2017.
+          </p>
+          <p style="font-style: italic" class="text-center">
+            <i class="fa fa-home" style="color: darkgoldenrod"></i>
+            <font color="#999"
+              >Bhagalpur College of Engineering Campus Sabour, Bhagalpur -
+              813210
+            </font>
+          </p>
+          <div class="text-center">
+            <a href="https://www.iiitbh.ac.in/" target="_blank"
+              ><i class="fa fa-globe"></i
+            ></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a
+              href="https://www.instagram.com/technical_iiitbh/"
+              target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/technical-iiitbh/?originalSubdomain=in"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+        <!-- <div class="r-footer">
+          <button type="button" class="btn btn-warning" id="light">
+            Light
+          </button> -->
+        </div>
+      </div>
+    </footer>
+
+    <div class="b-footer">
+      <p>
+        All rights reserved by Technical Board,Indian Institute of Information
+        Technology,Bhagalpur, 2021
+      </p>
+    </div>
+    <!-- Code Changed -->
+
+    <!-- Anurag Light & Dark Mode -->
+
+    <!-- Include base JS -->
+    <script type="text/javascript" src="../public/js/main.js"></script>
+    <script src="../public/js/themeChanger.js"></script>
+  </body>
+</html>
