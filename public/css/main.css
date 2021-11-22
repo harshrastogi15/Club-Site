@@ -1,8 +1,43 @@
 body {
-  background-color: rgba(32, 32, 32, 0.849) !important;
+  background-image: url("../data/maxresdefault.jpg");
   margin: 0;
 }
+/* Home Section */
+.home-section {
+  background-image: url("../data/Untitled\ design.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 70% auto;
+  padding-top: 20%;
+}
+.container {
+  color: #fff;
+}
+.left {
+  width: auto;
+  height: auto;
+}
+.line1{
+  width: 15%;
+  height: 0.40px;
+  border: 1px solid #F9F7F7;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
 
+.line2{
+  width: 15%;
+  height: 0.40px;
+  border: 1px solid #F9F7F7;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.social{  
+  left: 10%;
+  width: 39.6px;
+  height: 179.3px;
+  left: 65px;
+  top: 489.6px;
+}
 /* Carousel Section */
 
 .cards-wrapper {
