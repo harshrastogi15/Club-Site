@@ -2,6 +2,7 @@ body {
   background-image: url("../data/maxresdefault.jpg");
   margin: 0;
   background-size: cover;
+  background-attachment: fixed;
 }
 .active-bg {
   background-image: url("../data/3600167.jpg");
@@ -180,7 +181,18 @@ header p {
 .l-footer {
   margin-right: 1.25em;
   margin-bottom: 2em;
+  min-width: 437px;
+  width:35%;
   /* text-align: center; */
+}
+
+@media screen and (max-width: 552px) {
+  .l-footer{
+    min-width: 90%;
+    margin:auto;
+    text-align: center;
+
+  }
 }
 
 h2 {
@@ -226,9 +238,7 @@ h2 {
   column-count: 1;
   column-gap: 0em;
 }
-.l-footer {
-  width: 35%;
-}
+
 /* .r-footer {
   width: 10%;
 } */
@@ -244,6 +254,13 @@ h2 {
   align-items: center;
 
   padding: 1rem 0 0 0;
+}
+
+@media (max-width:710px){
+  .b-footer{
+    padding: 20px;
+    justify-content: center;
+  }
 }
 
 .l-footer p {
