@@ -11,6 +11,10 @@ nav {
   margin-left: 4%;
   margin-right: 4%;
 }
+/* .navbar {
+  position: fixed !important;
+  z-index: 5;
+} */
 /* Home Section */
 .home-section {
   background-image: url("../data/Untitled\ design.png");
