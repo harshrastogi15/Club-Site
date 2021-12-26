@@ -2,6 +2,71 @@
     margin-top: 50%;
     margin-bottom: 50%;
 }
+/* --AMIT KUMAR--*/
+a{
+  text-decoration: none;
+}
+
+header{
+  display: -webkit- flex;
+  display: -moz- flex;
+  display: -ms- flex;
+  display: -o- flex;
+  display: flex;
+  Justify-content: space-between; 
+  align-items: center;
+  padding: 40px 60px;
+  background: whitesmoke;
+}
+.logo
+{
+cursor: pointer;
+}
+.nav-area 
+{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.nav-area li a 
+header{
+  display: -webkit- flex;
+  display: -moz- flex;
+  display: -ms- flex;
+  display: -o- flex;
+  display: flex;
+  Justify-content: space-between; 
+  align-items: center;
+  padding: 19px 50px;
+  background: rgb(141, 60, 60);
+transition: .3s;
+color: rgb(7, 4, 4);   
+background: whitesmoke;  
+}
+
+.nav-area li  a:hover
+{
+  color: #d22938
+}
+
+.btn-area
+{
+  cursor: pointer;
+   color: rgb(2, 0, 0);
+   font-size: 20px;
+}
+  
+.btn-area1
+{
+  cursor: pointer;
+   color: rgb(253, 253, 253);
+   font-size: 20px;
+  letter-spacing: 2px;
+  padding: 10px 50px;
+  border-radius: 23px;
+  background: #30a0d4;
+}
+
 /*-----himanshu, kanishk------code start----*/
 h4{
     color:rgb(32, 197, 142);
