@@ -1,3 +1,246 @@
 .text-pos {
-    margin-top: 20%;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
+/*-----himanshu, kanishk------code start----*/
+h4{
+    color:rgb(32, 197, 142);
+}
+h1{
+    text-decoration :underline ;
+    color:blue;
+
+}
+ 
+.about{
+    text-align: center;
+    background-color:ghostwhite ;
+}
+.membercnt
+{
+    display: inline-block;
+    background-color: ghostwhite ;
+}
+.cnt{
+    text-align: center;
+    padding: 35px;
+    background-color: rgb(223, 238, 192);
+    height: fit-content;
+    min-height: 200px;
+    min-width: 200px;
+    width: fit-content;
+    margin: 8%;
+    border-radius: 150px;
+}
+.cnt p{
+    font-size:10px;
+    font-weight:600;
+    word-wrap:break-word;
+
+}
+
+.cnt p{
+    font-size:30px;
+    font-weight:300;
+    
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    final-value: 100;
+    inherits: false;
+  }
+  .cnt {
+    animation: counter 20s  ease-in-out;
+    counter-reset: num var(--num);
+    font: 80 40px system-ui;
+    padding: 2rem;
+  }
+  
+  .cnt::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+  /*-----himanshu, kanishk------code end----*/
+  /*shubham and souvik*/
+  .our-team{
+    border-radius: 100px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    background: #fff;
+
+}
+.our-team .pic{
+    background: rgb(214, 213, 213);
+    padding: 10px;
+    margin-bottom: 10px;
+
+    width: 100%;
+    height: 0%;
+
+}
+.our-team:hover .pic{
+    background: #d8d5d5;
+    border-radius: 1000%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+.our-team .title{
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+ display:flexbox;
+    font-size: 20px;
+    margin: 00px  00px 1px 0px;
+}
+/*shubham*/
+
+
+  /* TUSHAR  */
+  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+  /* *{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
+  .content1{
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000000;
+  }
+  .content1 .p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #991414;
+  }
+  footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(177, 177, 177);
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  
+  .center .social{
+    margin: 0px 20px 0 0;
+  }
+  .center .social a{
+    padding: 0px 8px;
+  }
+  .center .social a{
+    height: 40px;
+    width: 40px;
+    background: rgb(177, 177, 177);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .center .social a span:hover{
+    background: rgb(177, 177, 177);
+  }
+   .left form {
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #000000;
+    padding-left: 10%;
+  }
+  .left form input, .left form textarea{
+    width: 70%;
+    font-size: 1.0625rem;
+    background: #ffffff;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(41, 39, 39);
+  }
+  .left form input:focus,
+  .left form textarea:focus{
+    outline-color: #3498db;
+  }
+  .left form input{
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin: 8px 0px;
+  }
+  .left form .btn{
+    margin-top: 10px;
+  }
+  .left form .btn button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #707070;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .left form .btn button:hover{
+    background: rgb(105, 105, 105);
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }
+  
+  .right h2{
+      float: right;
+      padding-right: 50%;
+  }
+  .right .content{
+      float: right;
+      padding-right: 50%;
+  }
+  
+
+
+  /* TUSHAR */
