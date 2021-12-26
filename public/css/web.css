@@ -41,7 +41,7 @@ h1{
 
 .cnt p{
     font-size:30px;
-    font-width:300;
+    font-weight:300;
     
 }
 @property --num {
