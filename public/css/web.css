@@ -1,3 +1,72 @@
 .text-pos {
-    margin-top: 20%;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
+/*-----himanshu, kanishk------code start----*/
+h4{
+    color:rgb(32, 197, 142);
+}
+h1{
+    text-decoration :underline ;
+    color:blue;
+
+}
+ 
+.about{
+    text-align: center;
+    background-color:ghostwhite ;
+}
+.membercnt
+{
+    display: inline-block;
+    background-color: ghostwhite ;
+}
+.cnt{
+    text-align: center;
+    padding: 35px;
+    background-color: rgb(223, 238, 192);
+    height: fit-content;
+    min-height: 200px;
+    min-width: 200px;
+    width: fit-content;
+    margin: 8%;
+    border-radius: 150px;
+}
+.cnt p{
+    font-size:10px;
+    font-weight:600;
+    word-wrap:break-word;
+
+}
+
+.cnt p{
+    font-size:30px;
+    font-width:300;
+    
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    final-value: 100;
+    inherits: false;
+  }
+  .cnt {
+    animation: counter 20s  ease-in-out;
+    counter-reset: num var(--num);
+    font: 80 40px system-ui;
+    padding: 2rem;
+  }
+  
+  .cnt::after {
+    content: counter(num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+  /*-----himanshu, kanishk------code end----*/
