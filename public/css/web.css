@@ -1,9 +1,19 @@
-.text-pos {
+/* .text-pos {
     margin-top: 50%;
     margin-bottom: 50%;
-}
+} */
 /* --AMIT KUMAR--*/
-a{
+.navbar{
+  background-color: #c4c4c4;
+}
+
+.navbar .nav{
+  background-color: #c4c4c4;
+  color: #000000;
+} 
+
+
+/* a{
   text-decoration: none;
 }
 
@@ -65,56 +75,77 @@ background: whitesmoke;
   padding: 10px 50px;
   border-radius: 23px;
   background: #30a0d4;
+} */
+
+/* harsh */
+
+.main{
+  height: fit-content;
+  align-items: center;
+  background-color: #c4c4c4;
+  padding:3%;
+}
+
+.sidelogo{
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 30px;
+
+}
+
+.logo{
+  background-color: #928b8b;
+  margin: 2% auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.name{
+  text-align: center;
+  margin: 3%;
 }
 
 /*-----himanshu, kanishk------code start----*/
-h4{
-    color:rgb(32, 197, 142);
-}
-h1{
-    text-decoration :underline ;
-    color:blue;
-
-}
  
 .about{
     text-align: center;
-    background-color:ghostwhite ;
+    background-color:#c4c4c4 ;
+    border-radius: 50px;
 }
 .membercnt
 {
     display: inline-block;
-    background-color: ghostwhite ;
+    background-color: rgb(255, 255, 255) ;
 }
 .cnt{
+    align-items: center;
     text-align: center;
-    padding: 35px;
-    background-color: rgb(223, 238, 192);
+    padding: 2%;
+    background-color: #c4c4c4;
     height: fit-content;
     min-height: 200px;
     min-width: 200px;
     width: fit-content;
-    margin: 8%;
+    margin: 2% 6%;
     border-radius: 150px;
 }
 .cnt p{
-    font-size:10px;
-    font-weight:600;
+    font-size:20px;
+    font-weight:500;
     word-wrap:break-word;
 
 }
 
-.cnt p{
-    font-size:30px;
-    font-weight:300;
-    
-}
 @property --num {
     syntax: "<integer>";
     initial-value: 0;
     final-value: 100;
     inherits: false;
   }
+
   .cnt {
     animation: counter 20s  ease-in-out;
     counter-reset: num var(--num);
@@ -181,24 +212,9 @@ h1{
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   } */
-  .content1{
-    position: relative;
-    margin: 130px auto;
-    text-align: center;
-    padding: 0 20px;
-  }
-  .content1 .text{
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #000000;
-  }
-  .content1 .p{
-    font-size: 2.1875rem;
-    font-weight: 600;
-    color: #991414;
-  }
+
   footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     width: 100%;
     background: rgb(177, 177, 177);
