@@ -20,6 +20,7 @@ app.get("/:site", (req, res) => {
   else if (site == "cloud") res.render("cloud.ejs");
   else if (site == "electronics") res.render("electronics.ejs");
   else if (site == "automation") res.render("automation.ejs");
+  else if (site == "web-admin") res.render("web-admin.ejs");
   else res.render("index.ejs");
 });
 

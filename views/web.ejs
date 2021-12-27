@@ -5,15 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>webverse</title>
+    <title>Webverse</title>
 
     <!-- Import CSS -->
     <link rel="stylesheet" href="../public/css/web.css">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../public/data/web-logo.jpg">
 
     <!-- Import JS -->
     <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 
 <body>
@@ -21,6 +24,8 @@
 
     <!-- Include base js -->
     <!-- amit kumar - navbar -->
+    <div id="particles-js"></div>
+
     <header class="navbar">
         <ul class="nav justify-content-center nav-tabs mx-auto" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -36,8 +41,8 @@
                     role="tab" aria-controls="contact" aria-selected="false">Contact</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-                    role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" type="submit"
+                    role="tab" aria-controls="contact" aria-selected="false" onclick="window.location.href='/web-admin';" >Admin</button>
             </li>
         </ul>
         <!-- <a href="#" class="btn-area">Log in</a>
@@ -47,20 +52,20 @@
     <div class="sidelogo">
         <div class="logo"></div>
     </div>
-    <div class="container-fluid main">
+    <section class="container-fluid main">
         <div class="logo">
-            <p>logo</p>
+            <!-- <img class="logo-img" src="../public/data/web-logo.jpg"> -->
         </div>
         <div class="name container">
             <h3>Web Development Club</h3>
             <h6>INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, BHAGALPUR</h6>
             <p>tag line</p>
         </div>
-    </div>
+    </section>
 
 
     <!-- kanishk and himanshu - about us -->
-    <div class="container-fluid about">
+    <section class="container-fluid section-padding about mt-4 py-4">
         <div class="container">
             <h1>About us</h1>
             <p>
@@ -76,8 +81,8 @@
                 a few. </i>
             </p>
         </div>
-    </div>
-    <div class="container-fluid">
+    </section>
+    <section class="container-fluid section-padding">
         <div class="nav justify-content-center membercnt">
             <div class="cnt">
                 <p>projects</p>
@@ -89,14 +94,14 @@
                 <p>hackathons</p>
             </div>
         </div>
-    </div>
+    </section>
     <!-- sanidhya - latest new section -->
 
 
 
     <!-- shubham and sowvik - team member section -->
-    <div class="container">
-        <div class="row">
+    <section class="container section-padding team">
+        <div class="row d-flex justify-content-between">
             <div class="col-md-3 col-sm-6">
                 <div class="our-team">
                     <div class="pic">
@@ -106,8 +111,6 @@
                     </div>
                     <h3 class="title">NAME</h3>
                     <span class="post">Coordinator</span>
-
-
                 </div>
             </div>
 
@@ -119,114 +122,31 @@
                     </div>
                     <h3 class="title">NAME</h3>
                     <span class="post">Co-ordinator</span>
-
-
-
                 </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVisBJ-k0v2t06S3nVsAzs2yRiEbm9OKXbg&usqp=CAU">
-                    </div>
-                    <h3 class="title">NAME</h3>
-                    <span class="post">position</span>
-
-
-
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJVisBJ-k0v2t06S3nVsAzs2yRiEbm9OKXbg&usqp=CAU">
-                    </div>
-                    <h3 class="title">NAME</h3>
-                    <span class="post">position</span>
-
-
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img
-                            src="https://www.dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2021/01/dummy-profile-pic.jpg">
-                    </div>
-                    <h3 class="title">NAME</h3>
-                    <span class="post">position</span>
-
-
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img
-                            src="https://www.dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2021/01/dummy-profile-pic.jpg">
-                    </div>
-                    <h3 class="title">NAME</h3>
-                    <span class="post">position</span>
-
-
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img
-                            src="https://www.dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2021/01/dummy-profile-pic.jpg">
-                    </div>
-                    <h3 class="title">NAME</h3>
-                    <span class="post">position</span>
-
-
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img
-                            src="https://www.dgvaishnavcollege.edu.in/dgvaishnav-c/uploads/2021/01/dummy-profile-pic.jpg">
-                    </div>
-                    <h3 class="title">NAME</h3>
-                    <span class="post">position</span>
-
-
-
-                </div>
-            </div>
+            </div>            
         </div>
-    </div>
+    </section>
 
 
 
     <!-- vivek, tushar and suryansh - footer -->
-    <footer class="container-fluid">
-        <div class="container">
+    <footer class="container-fluid section-padding">
+        <div class="container py-4">
             <div class="main-content">
                 <div class="left box">
                     <h2>Query/Suggestions</h2>
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Email">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
                     </div>
                     <div class="mb-3">
                         <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Query" style="resize: none;"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Query"
+                            style="resize: none;"></textarea>
                     </div>
                 </div>
-                <div class="right box">
+                <!-- <div class="right box">
                     <h2>Contact us</h2>
                     <div class="content">
                         <ul type="none">
@@ -241,8 +161,7 @@
                                 <li>email</li>
                                 <li>Co-ordinator</li>
                         </ul>
-                    </div>
-
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -250,9 +169,9 @@
             <center>
                 <div class="center box">
                     <div class="social">
-                        <a href=""><span class="fab fa-linkedin"></span></a>
-                        <a href=""><span class="fab fa-instagram"></span></a>
-                        <a href=""><span class="fab fa-youtube"></span></a>
+                        <a href=""><span class="fa fa-linkedin"></span></a>
+                        <a href=""><span class="fa fa-instagram"></span></a>
+                        <a href=""><span class="fa fa-youtube"></span></a>
                     </div>
             </center>
         </div>
