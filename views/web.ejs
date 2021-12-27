@@ -41,17 +41,18 @@
                     role="tab" aria-controls="contact" aria-selected="false">Contact</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" type="submit"
-                    role="tab" aria-controls="contact" aria-selected="false" onclick="window.location.href='/web-admin';" >Admin</button>
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" type="submit" role="tab"
+                    aria-controls="contact" aria-selected="false"
+                    onclick="window.location.href='/web-admin';">Admin</button>
             </li>
         </ul>
         <!-- <a href="#" class="btn-area">Log in</a>
         <a href="#" class="btn-area1">Sign up</a> -->
     </header>
     <!-- devyanshu and chandan - hero section -->
-    <div class="sidelogo">
+    <!-- <div class="sidelogo">
         <div class="logo"></div>
-    </div>
+    </div> -->
     <section class="container-fluid main">
         <div class="logo">
             <!-- <img class="logo-img" src="../public/data/web-logo.jpg"> -->
@@ -82,16 +83,19 @@
             </p>
         </div>
     </section>
-    <section class="container-fluid section-padding">
-        <div class="nav justify-content-center membercnt">
+    <section class="container-fluid">
+        <div class="nav justify-content-around membercnt">
             <div class="cnt">
-                <p>projects</p>
+                <span class="count">10</span>
+                <p>Projects</p>
             </div>
             <div class="cnt">
-                <p>members </p>
+                <span class="count">53</span>
+                <p>Members</p>
             </div>
             <div class="cnt">
-                <p>hackathons</p>
+                <span class="count">2</span>
+                <p>Events</p>
             </div>
         </div>
     </section>
@@ -123,7 +127,7 @@
                     <h3 class="title">NAME</h3>
                     <span class="post">Co-ordinator</span>
                 </div>
-            </div>            
+            </div>
         </div>
     </section>
 
@@ -135,16 +139,19 @@
             <div class="main-content">
                 <div class="left box">
                     <h2>Query/Suggestions</h2>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Query"
-                            style="resize: none;"></textarea>
-                    </div>
+                    <form action="/webCt" method="POST">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="name" id="inputEmail4" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Query"
+                                style="resize: none;"></textarea>
+                        </div>
+                        <!-- <buttton class="form-button" type="submit">Submit</buttton> -->
+                    </form>
                 </div>
                 <!-- <div class="right box">
                     <h2>Contact us</h2>
@@ -162,8 +169,8 @@
                                 <li>Co-ordinator</li>
                         </ul>
                     </div> -->
-                </div>
             </div>
+        </div>
         </div>
         <div class="bottom">
             <center>
