@@ -134,26 +134,114 @@
 
 
     <!-- vivek, tushar and suryansh - footer -->
-    <footer class="container-fluid section-padding">
-        <div class="container py-4">
-            <div class="main-content">
-                <div class="left box">
+    <footer class="container my-5">
+        <section id="news" class="float-md-end">
+            <div class="container">
+                <div class="title">
+                    <h2>Latest News</h3>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card text-center newstext">
+                                <div class="card-body">
+                                    <h4 class="card-title">News</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                                        placeat.</p>
+                                    <a href="">
+                                        <p>News Link</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card text-center newstext">
+                                <div class="card-body">
+                                    <h4 class="card-title">News</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                                        placeat.</p>
+                                    <a href="">
+                                        <p>News Link</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card text-center newstext">
+                                <div class="card-body">
+                                    <h4 class="card-title">hello</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Obcaecati,
+                                        placeat.</p>
+                                    <a href="">
+                                        <p>News Link</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+        <section class="float-md-start">
+            <div class="title">
+                <h2>Query/Suggestions</h2>
+            </div>
+            <form class="queryform" action="/webCt" method="POST">
+                <div class="mb-3">
+                    <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
+                        placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="name" id="inputEmail4" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Query" style="resize: none;"></textarea>
+                </div>
+                <button  type="submit">Submit</button>
+            </form>
+        </section>
+    </footer>
+
+    <!-- <footer class="container-fluid section-padding">
+                            <div class="container py-4">
+                                <div class="main-content">
+                                    <div class="left box">
                     <h2>Query/Suggestions</h2>
                     <form action="/webCt" method="POST">
                         <div class="mb-3">
-                            <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="Email">
+                            <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
+                                placeholder="Email">
                         </div>
                         <div class="mb-3">
                             <input type="text" class="form-control" name="name" id="inputEmail4" placeholder="Name">
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Query"
-                                style="resize: none;"></textarea>
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Query" style="resize: none;"></textarea>
                         </div>
-                        <!-- <buttton class="form-button" type="submit">Submit</buttton> -->
-                    </form>
-                </div>
-                <!-- <div class="right box">
+                         <buttton class="form-button" type="submit">Submit</buttton> -->
+    <!-- </form> -->
+    <!-- </div> -->
+    <!-- <div class="right box">
                     <h2>Contact us</h2>
                     <div class="content">
                         <ul type="none">
@@ -169,21 +257,19 @@
                                 <li>Co-ordinator</li>
                         </ul>
                     </div> -->
-            </div>
+    <!-- </div>
         </div>
-        </div>
-        <div class="bottom">
-            <center>
-                <div class="center box">
-                    <div class="social">
-                        <a href=""><span class="fa fa-linkedin"></span></a>
-                        <a href=""><span class="fa fa-instagram"></span></a>
-                        <a href=""><span class="fa fa-youtube"></span></a>
-                    </div>
-            </center>
-        </div>
-        </div>
-    </footer>
+        </div> -->
+    <div class="bottom">
+        <center>
+            <div class="center box">
+                <div class="social">
+                    <a href=""><span class="fa fa-linkedin"></span></a>
+                    <a href=""><span class="fa fa-instagram"></span></a>
+                    <a href=""><span class="fa fa-youtube"></span></a>
+                </div>
+        </center>
+    </div>
     <!---Tushar , suryansh , vivek -->
 
 

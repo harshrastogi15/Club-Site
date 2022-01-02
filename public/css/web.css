@@ -80,6 +80,10 @@ canvas {
   height: 100px;
   border-radius: 100px;
   text-align: center;
+  overflow: hidden;
+  background-image: url("../data/web-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .name {
@@ -163,12 +167,9 @@ canvas {
 
 /* TUSHAR  */
 footer {
-  /* position: fixed; */
-  bottom: 0px;
-  width: 100%;
-  /* background: rgb(177, 177, 177); */
+  clear: both;
 }
-.main-content {
+/* .main-content {
   display: flex;
 }
 .main-content .box {
@@ -185,25 +186,6 @@ footer {
   position: relative;
 }
 
-.center .social {
-  margin: 0px 20px 0 0;
-}
-.center .social a {
-  padding: 0px 8px;
-}
-.center .social a {
-  height: 40px;
-  width: 40px;
-  background: rgb(177, 177, 177);
-  line-height: 40px;
-  text-align: center;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-.center .social a span:hover {
-  background: rgb(177, 177, 177);
-}
 .left form {
   font-size: 1.0625rem;
   margin-bottom: 2px;
@@ -270,6 +252,95 @@ footer {
 .right .content {
   float: right;
   padding-right: 50%;
-}
+} */
 
 /* TUSHAR */
+
+.center .social {
+  margin: 0px 20px 0 0px;
+}
+
+.center .social a {
+  margin: auto 2%;
+  padding: 0px 8px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.center .social a:hover {
+  background: rgb(177, 177, 177);
+}
+
+
+/* news */
+
+#news{
+  /* background-color: darkslategray; */
+  /* padding: 30px 0;  */
+  width: 60%;
+}
+
+@media (max-width:767px) {
+  #news{
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.title{
+  text-align: center;
+  padding: 25px 0;
+}
+
+.title p{
+  font-size: 20px;
+}
+
+.card-body{
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+  margin: 20px 10px;
+}
+
+.card:hover{
+  border: solid black 1px;
+  border-radius: 10px;
+  transform: scale(1.08);
+  transition: 0.3s ease-in-out;
+}
+
+.newstext{
+  margin: 80px;
+  color: black;
+}
+
+.newstext p,.newstext h4{
+  color: black;
+}
+
+.queryform{
+  margin: 20px auto;
+  align-items: center;
+}
+
+.queryform button{
+  background-color: slategray;
+  padding: 2% 3%;
+  border-radius: 10px;
+  border: 3px solid slategray;
+  font-weight: 500;
+}
+
+.queryform button:hover{
+  color: black;
+}
+
+.bottom {
+  clear: both;
+}
